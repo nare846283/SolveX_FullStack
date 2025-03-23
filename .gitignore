@@ -1,0 +1,27 @@
+# Node Modules (Both frontend & backend)
+frontend/node_modules/
+backend/node_modules/
+
+# Build files
+frontend/dist/
+backend/dist/
+frontend/build/
+backend/build/
+
+# Environment Variables
+frontend/.env
+backend/.env
+frontend/.env.local
+backend/.env.local
+
+# Logs
+backend/logs/
+*.log
+npm-debug.log*
+yarn-error.log
+pnpm-debug.log
+
+# Editor-specific files
+.vscode/
+.idea/
+.DS_Store
